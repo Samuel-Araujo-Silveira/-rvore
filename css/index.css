@@ -1,4 +1,4 @@
-body{
+.container-fluid{
   margin: 0;
   padding: 0;
 }
@@ -8,10 +8,11 @@ body{
 #logo-image{
   width: 8%;
   margin-right: 1%;
+  margin-left: 0.5%;
 }
 
 .navbar-brand{
-  margin-right: 15%;
+  margin-right: 20%;
 }
 
 
