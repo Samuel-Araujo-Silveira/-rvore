@@ -49,3 +49,12 @@
   .list-group-item .glyphicon {
     margin-right: 5px;
   }
+
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-container img {
+    margin-right: 10px; /* Ajuste a margem conforme necessário */
+  }
