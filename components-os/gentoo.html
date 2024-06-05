@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/linux.css">
+    <title>Gentoo</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img id="logo-image" src="../image/home/navbar.png" alt="">
+                <a class="navbar-brand" href="../index.html">Sistemas Operacionais</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../unixHome.html" style="margin-left: 20px;">Linux</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../86dosHome.html" style="margin-left: 20px;">Windows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../unixHome.html" style="margin-left: 20px;">MacOs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="title-container" style=" margin-top: 60px; align-items: center;">
+                <img src="../image/components/gentoo.jpg" class="img-fluid" alt="..." style="width: 10rem;">
+                <p class="fs-1">Gentoo</p>
+            </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 150px; margin-top: 60px;">
+
+            <p class="fs-2">CLASSIFICAÇÃO</p>
+            <p class="fs-3">
+                Gentoo Linux é uma metadistribuição que utiliza o sistema de gerenciamento de pacotes Portage. O nome
+                Gentoo é inspirado na espécie de pinguim Gentoo. O gerenciamento de pacotes do Gentoo foi projetado para
+                ser modular, portátil, fácil de manter, flexível e otimizado para a máquina do usuário. Diferentemente
+                da maioria das distribuições de software, os pacotes são geralmente compilados a partir do código-fonte,
+                mantendo a tradição dos ports dos sistemas BSD. No entanto, para conveniência, alguns pacotes grandes
+                são disponibilizados como binários pré-compilados para diversas arquiteturas. O sistema init do Gentoo é
+                uma característica distinta que, embora semelhante ao init do System V usado pela maioria das
+                distribuições Linux, emprega scripts baseados em dependências e níveis de execução nomeados. Utiliza o
+                interpretador runscript para as scripts de inicialização em vez de uma shell tradicional.
+                Originalmente, o sistema rc do Gentoo, escrito em bash e compilado no baselayout 1, enfrentava
+                limitações que exigiam callouts em C, causando inchaço ao longo do tempo. A expansão do Gentoo para
+                plataformas como Gentoo/FreeBSD e Gentoo Embedded dificultou a dependência de um sistema rc baseado em
+                bash, levando ao desenvolvimento do baselayout 2 em C, que requer apenas uma shell compatível com POSIX.
+                Decidiu-se então separar o sistema rc em seu próprio pacote, o OpenRC, desenvolvido principalmente por
+                Roy Marples, que suporta Gentoo e suas variantes, além de outras plataformas como FreeBSD e NetBSD.
+
+            </p>
+
+            <p class="fs-2">REFERÊNCIAS</p>
+            <p class="fs-3"> Scritps de Inicialização do Gentoo (em inglês).
+            <p class="fs-3">FAQ - Gentoo Wiki. wiki.gentoo.org. Consultado em 05 de junho de 2024</p>
+
+            <p class="fs-2">REPOSITÓRIO DO GENTOO</p>
+            <a href="https://github.com/gentoo/gentoo">https://github.com/gentoo/gentoo</a>
+
+        </div>
+
+
+
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>Estudantes do IF Baiano</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled">
+                            <li>Email: samuel.silveira2001@gmail.com</li>
+                            <li>Email: rodrigo321.costa@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/linux.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
