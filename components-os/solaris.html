@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/linux.css">
+    <title>Solaris</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img id="logo-image" src="../image/home/navbar.png" alt="">
+                <a class="navbar-brand" href="../index.html">Sistemas Operacionais</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../unixHome.html" style="margin-left: 20px;">Linux</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../86dosHome.html" style="margin-left: 20px;">Windows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../unixHome.html" style="margin-left: 20px;">MacOs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="title-container" style=" margin-top: 60px; align-items: center;">
+                <img src="../image/components/solariss.jpg" class="img-fluid" alt="..." style="width: 10rem;">
+                <p class="fs-1">Solaris</p>
+            </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 150px; margin-top: 60px;">
+
+            <p class="fs-2">CLASSIFICAÇÃO</p>
+            <p class="fs-3">
+                O desenvolvimento do SunOS 1.0, baseado no BSD 4.1 dos laboratórios de Berkeley em 1982, marcou o início
+                do sistema operacional da Sun Microsystems, inicialmente implementado em processadores uniprocessadores
+                Motorola 68000. Ao longo dos anos 1980, a popularidade dos sistemas UNIX em rede cresceu, levando a Sun
+                a investir em tecnologias para computação distribuída, como RPC, NIS e NFS. A transição para o Solaris
+                2.0, com um novo kernel focado na escalabilidade multiprocessador e implementação modular para diversas
+                arquiteturas, marcou uma mudança significativa. A introdução do suporte a 64 bits no Solaris 7 e a
+                expansão para arquiteturas Intel e Itanium impulsionaram ainda mais sua adoção. O Solaris kernel fornece
+                um ambiente de máquina virtual para proteger os programas do hardware subjacente, permitindo a execução
+                simultânea de vários programas. Chamadas de sistema fornecem acesso aos serviços do kernel para executar
+                tarefas em nome do processo chamador.A transição de modelos de threads muitos-para-muitos para modelos
+                um-para-um em sistemas operacionais
+                como Solaris 8 e a adaptação dinâmica do número de threads operários em sistemas como o Windows XP
+                refletem os desafios e as necessidades em torno da eficiência e escalabilidade do sistema (Mcdougall,
+                2000).
+                A complexidade do modelo muitos-para-muitos pode dificultar o design do sistema operacional, levando a
+                abordagens variadas entre diferentes sistemas, como visto nas mudanças implementadas pelo Solaris ao
+                longo de suas versões. Apesar disso, estratégias como a criação de threads de núcleo para monitorar
+                sinais pendentes em um ambiente muitos-para-muitos demonstram soluções adaptativas para desafios
+                específicos desse modelo. Enquanto poucos sistemas oferecem implementações Pthread nativas no núcleo,
+                bibliotecas de suporte a threads do POSIX estão disponíveis para uma ampla gama de sistemas, incluindo o
+                Linux com sua Native POSIX Thread Library (NPTL). Similarmente, embora a API Win32 do Windows não siga o
+                padrão POSIX, a instalação de um subsistema POSIX permite suporte a threads. O Solaris 9 da Sun
+                Microsystems oferece tanto uma biblioteca de Pthreads em conformidade com o padrão POSIX quanto uma
+                biblioteca de threads herdada do Solaris, proporcionando compatibilidade entre diferentes ambientes de
+                thread (Deitel et al., 2005). Em sua versão 10, lançada no início de 2005, Solaris oferece uma gama de
+                recursos avançados, incluindo DTrace para análise e resolução de problemas de performance em tempo real,
+                Solaris Containers para a consolidação de aplicações em servidores maiores com ambientes isolados,
+                Predictive Self-Healing que antecipa e isola falhas para evitar paradas críticas, Smarter Updating que
+                permite atualizações automáticas e inteligentes via Sun Update Connection, além da integração de
+                centenas de aplicações de código aberto. Destaca-se também o ZFS, um sistema de arquivos inovador que
+                proporciona administração simplificada, semântica transacional, integridade de dados de ponta a ponta e
+                escalabilidade significativa (Oracle, 2010).
+            </p>
+
+            <p class="fs-2">REFERÊNCIAS</p>
+            <p class="fs-3">Harvey M. Deitel, Paul J. Deitel e David R. Choffnes. Sistemas Operacionais Pearson Prentice
+                Hall,2005. Terceira edição.</p>
+            <p class="fs-3">MAURO, Jim; MCDOUGALL, Richard. Solaris internals: core kernel components. Prentice Hall
+                Professional, 2001.
+            </p>
+            <p class="fs-3">MAURO, Jim; MCDOUGALL, Richard. Solaris internals: core kernel components. Prentice Hall
+                Oracle Corporation. 27 de janeiro de 2010. Consultado em 22 de setembro de 2016
+            </p>
+
+        </div>
+
+
+
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>Estudantes do IF Baiano</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Contact</h5>
+                        <ul class="list-unstyled">
+                            <li>Email: samuel.silveira2001@gmail.com</li>
+                            <li>Email: rodrigo321.costa@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/linux.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
